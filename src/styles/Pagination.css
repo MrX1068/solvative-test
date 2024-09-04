@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 20px;
+  column-gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: 1px solid rgb(222, 226, 230);
+  background-color: rgb(248, 249, 250);
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: rgb(233, 236, 239);
+  cursor: not-allowed;
+}
+
+.items-per-page {
+  display: flex;
+  align-items: center;
+}
+
+.items-per-page input {
+  width: 50px;
+  margin-left: 8px;
+  padding: 4px;
+}

@@ -1,9 +1,12 @@
+import React from "react";
+import Home from "./pages/Home";
 import "./styles/App.css";
 
 function App() {
   return (
     <div className="App">
-      <h3>Test</h3>
+      <h1>Cities Search App</h1>
+      <Home />
     </div>
   );
 }

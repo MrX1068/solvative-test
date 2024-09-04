@@ -1,0 +1,36 @@
+.places-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  min-height: 200px;
+}
+
+.places-table th,
+.places-table td {
+  padding: 8px;
+  border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.places-table th {
+  font-weight: 700;
+  text-align: left;
+}
+
+.no-result {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: rgb(108, 117, 125);
+}
+
+.spinner {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: rgb(108, 117, 125);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
