@@ -2,9 +2,10 @@
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+}
+.table-min-height {
   min-height: 200px;
 }
-
 .places-table th,
 .places-table td {
   padding: 8px;

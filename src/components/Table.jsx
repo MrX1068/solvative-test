@@ -3,15 +3,15 @@ import "../styles/Table.css";
 
 const Table = ({ cities, loading }) => {
   if (loading) {
-    return <div className="spinner">Loading...</div>;
+    return <div className="spinner table-min-height">Loading...</div>;
   }
 
   if (!cities?.length) {
-    return <div className="no-result">Start searching</div>;
+    return <div className="no-result table-min-height">Start searching</div>;
   }
 
   return (
-    <table className="places-table">
+    <table className="places-table table-min-height">
       <thead>
         <tr>
           <th>#</th>
